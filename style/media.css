@@ -1,0 +1,420 @@
+@media(min-width: 1301px) {
+    .container {
+        width: 1250px;
+        
+    }
+    
+    .hamburger {
+        display: none;
+    }
+}
+
+@media(max-width: 1300px) {
+    .container {
+        width: 960px;
+    }
+    
+    .l-menu{
+        left: 5px;
+    }
+
+    .h-content::before {
+        display: none;
+    }
+    
+    .menu-wrapper .hamburger {
+        display: none;
+    }
+
+    .l-menu ul {
+        display: none;
+    }
+
+    .open ul {
+        display: inline-block;
+        margin-top: 30px;
+    }
+
+    .item-block .title {
+        background: none;
+    }
+
+    .table-block h3, 
+    .team-block .title, 
+    .blue-block h3 {
+        padding: 0 50px;
+        margin: 0;
+    }
+
+    .title h3, 
+    .roadmap-block .title h3 {
+        font-size: 50px;
+    }
+    .header-blank {
+        padding-right: 100px;
+    }
+
+    .c-btn {
+        display: block;
+    }
+
+    .c-btn:last-child .button {
+        margin-top: 24px;
+    }
+
+    .go-blank {
+        padding: 50px 0;
+    }
+    
+    .black-block, 
+    .team-block, 
+    .blue-block, 
+    .header-bottom {
+        padding: 100px 0;
+    }
+
+    .token-block, 
+    .table-block, 
+    .market-block {
+        padding-top: 120px;
+    }
+
+    .roadmap-block {
+        padding: 80px 0;
+    }
+
+    .button a {
+        padding: 10px 77px 10px 14px;
+        font-size: 11px;
+    }
+}
+
+@media(max-width: 991px) {
+    .container {
+        width: 730px;
+    }
+
+    .menu-block {
+        position: fixed;
+        right: -500px;
+        top: 0;
+        padding-top: 50px;
+        bottom: 0;
+        z-index: 999;
+        flex-direction: column;
+        background-color: rgb(0,0,0,0.85);
+        transition: .3s;
+    }
+
+    .opened {
+        right: 0;
+    }
+    
+    .active {
+        right: 100px;
+    }
+    .menu-wrapper .hamburger {
+        display: inline-block;
+    }
+
+
+    .h-menu ul {
+        flex-direction: column;
+    }
+
+    .h-btn a, 
+    .h-menu ul li {
+        margin: 20px 30px;
+        display: block;
+    }
+
+    .h-menu ul li a {
+        color: white;
+    }
+
+    .h-content, 
+    .h-text {
+        margin: 0 0 50px;
+    }
+
+    .info-picture img {
+        width: 90%;
+    }
+
+    .info-picture {
+        display: flex;
+        align-items: center;
+    }
+    .h-content img {
+        width: 80%;
+    }
+    .c-btn{
+        margin: 0;
+    }
+
+    .item-block .title {
+        padding-top: 0;
+    }
+
+    .items .col-3 {
+        margin: 12px 0;
+    }
+
+    .title h3, 
+    .roadmap-block .title h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .product {
+        padding: 40px 40px 0 0;
+        margin-bottom: 29px;
+    }
+
+    .black-block, 
+    .team-block, 
+    .blue-block, 
+    .header-bottom {
+        padding: 40px 0;
+    }
+
+    .token-block, 
+    .table-block, 
+    .market-block {
+        padding-top: 60px;
+    }
+
+    .black-block .title h3 { 
+        margin: 0;
+        font-size: 45px;
+    }
+
+    .col-4 {
+        width: 33.3%;
+    }
+
+    .col-3 {
+        width: 50%;
+    }
+    .blanks .col-4 {
+        width: 50%;
+    }
+
+    .blanks .col-4:first-child {
+        padding-left: 24px;
+    }
+
+    .logo-block {
+        padding: 40px 48px;
+    }
+
+    .logo {
+        width: 25%;
+    }
+
+    .teams {
+        justify-content: space-evenly;
+    }
+
+    .h-bottom {
+        margin-top: 90px;
+    }
+
+    .table-wrap{
+        justify-content: inherit;
+    }
+
+    .column:not(:first-child) {
+        width: 200px;
+        padding: 40px;
+    }
+
+    .header .column:first-child {
+        padding: 29px 30px;
+    }
+
+    .column:first-child {
+        width: 340px;
+        padding: 40px 40px 40px 30px;
+    }
+
+    .header {
+        font-size: 18px;
+    }
+
+    .info p {
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .container {
+        width: 480px;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .title span {
+        margin: 0;
+    }
+    .h-text, 
+    .h-content, 
+    .main, 
+    .info-picture,
+    .token,
+    .products,
+    .header-blank,
+    .socials-box, 
+    .col-3,
+    .col-4,
+    .roadmap-block .title {
+        width: 100%;
+    }
+
+    .info-picture,
+    .products,
+    .socials-box,
+    .h-bottom {
+        margin-top: 50px;    
+    }
+
+    .info-picture {
+        justify-content: center;
+    }
+
+    .item::before,
+    .item::after,
+    h3::after {
+        display: none;
+    }
+
+    .team {
+        text-align: center;
+    }
+
+    .c-btn{
+        display: flex;
+    }
+
+    .go-blank {
+        padding: 25px 0;
+    }
+
+    .token-block, 
+    .table-block, 
+    .market-block {
+        padding-top: 40px;
+    }
+
+    .table-block h3, 
+    .team-block .title, 
+    .blue-block h3 {
+        padding: 0;
+    }
+
+    .roadmap-block {
+        padding: 40px 0;
+    }
+
+    .logo {
+        width: 33.3%;
+    }
+
+    .info p {
+        margin-right: 0;
+    }
+
+    .privacy img{
+        width: 70%;
+    }
+
+    .black-block .title h3 {
+        font-size: 40px;
+    }
+
+    .column:not(:first-child) {
+        width: 150px;
+        padding: 30px;
+    }
+
+    .header .column:first-child {
+        padding: 19px 30px;
+    }
+
+    .column:first-child {
+        width: 300px;
+        padding: 30px 40px 30px 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 320px;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .c-btn {
+        display: block;
+    }
+
+    .black-btn {
+        display: block;
+    }
+
+    .wht-btn a {
+        margin: 24px 0 0;
+    }
+
+    .item{
+        margin-top: 38px;
+    }
+
+    .items {
+        margin-top: 0;
+    }
+
+    .item-block {
+        padding-bottom: 40px;
+    }
+
+    .blanks {
+        margin-top: 0;
+    }
+
+    .blanks .col-4 {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .title h3, 
+    .roadmap-block .title h3,
+    .black-block .title h3 {
+        font-size: 35px;
+    }
+
+    .socials {
+        width: 50%;
+    }
+
+    .socials-box .socials:nth-child(2) {
+        padding-left: 50px;
+    }
+
+    .product {
+        padding-right: 20px;
+    }
+
+    .socials li:first-child {
+        margin-bottom: 20px;
+    }
+
+    .black-text span {
+        margin-left: 155px;
+    }
+}
